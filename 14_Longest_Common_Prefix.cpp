@@ -37,10 +37,10 @@ public:
 int main()
 {
     std::vector<string> vec;
-    // vec.push_back("1113");
-    // vec.push_back("112");
-    // vec.push_back("113");
-    // vec.push_back("114");
+    vec.push_back("1113");
+    vec.push_back("112");
+    vec.push_back("113");
+    vec.push_back("114");
     Solution solution;
     std::cout << "longestCommonPrefix:" << solution.longestCommonPrefix(vec) << '\n';
 }
